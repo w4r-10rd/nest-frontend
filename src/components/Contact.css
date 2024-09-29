@@ -1,0 +1,98 @@
+.contact-section {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    padding: 50px 20px;
+    color: #fff;
+  }
+  
+  .contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+  }
+  
+  .contact-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    padding: 15px 25px;
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #4facfe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #00f2fe;
+    color: #fff;
+    transform: translateY(-3px);
+  }
+  
+  .error {
+    margin-top: 15px;
+    color: #ff6b6b;
+    background: rgba(255, 107, 107, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .success {
+    margin-top: 15px;
+    color: #2ecc71;
+    background: rgba(46, 204, 113, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

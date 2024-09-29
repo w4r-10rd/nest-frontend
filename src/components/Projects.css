@@ -1,0 +1,28 @@
+.projects-section {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .projects-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .projects-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4facfe;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects-content p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+  }
+  
